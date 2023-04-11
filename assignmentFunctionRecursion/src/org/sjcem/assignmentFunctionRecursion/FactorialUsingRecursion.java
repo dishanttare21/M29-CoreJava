@@ -1,0 +1,22 @@
+package org.sjcem.assignmentFunctionRecursion;
+
+import java.util.Scanner;
+//Program to find the factorial of a number using recursion
+public class FactorialUsingRecursion {
+	
+	//function definition
+	static int factorial(int num) {
+		if(num != 0)
+			return num*factorial(num-1);
+		return 1;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number: ");
+		int num = sc.nextInt();
+		System.out.println("Factorial of the number is: "+factorial(num));
+		sc.close();
+	}
+
+}
