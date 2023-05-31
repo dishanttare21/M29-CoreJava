@@ -1,4 +1,4 @@
-package com.sjcem.threading;
+package org.sjcem.threading;
 
 public class AccountThread extends Thread {
 	Account acc;

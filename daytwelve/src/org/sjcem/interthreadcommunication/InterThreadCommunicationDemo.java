@@ -1,5 +1,5 @@
 //Program to demonstrate inter-thread communication
-package com.sjcem.interthreadcommunication;
+package org.sjcem.interthreadcommunication;
 
 public class InterThreadCommunicationDemo {
 	public static void main(String[] args) {

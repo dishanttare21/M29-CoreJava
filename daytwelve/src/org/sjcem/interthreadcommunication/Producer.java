@@ -1,5 +1,5 @@
 //Program to demonstrate InterThread Communication - Producer Thread Class
-package com.sjcem.interthreadcommunication;
+package org.sjcem.interthreadcommunication;
 
 public class Producer extends Thread{
 	Q obj;

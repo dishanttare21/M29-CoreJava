@@ -1,5 +1,5 @@
 //Program to demonstrate InterThread Communication - Consumer Thread Class
-package com.sjcem.interthreadcommunication;
+package org.sjcem.interthreadcommunication;
 
 public class Consumer extends Thread {
 	Q obj; 

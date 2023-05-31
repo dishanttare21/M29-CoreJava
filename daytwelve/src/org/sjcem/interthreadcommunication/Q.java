@@ -1,5 +1,5 @@
 //Service class
-package com.sjcem.interthreadcommunication;
+package org.sjcem.interthreadcommunication;
 
 public class Q {
 	int n;
