@@ -21,7 +21,7 @@ public class GenericsAdvantageExample {
 		String str = (String) arr1.get(0);
 		System.out.println(str);
 		
-		//3. In Generics, Typecasting is not necessary
+		//3. In Generics, Typecasting is not necessary/allowed
 		ArrayList<String> arr2 = new ArrayList<>();
 		arr2.add("St. John");
 		System.out.println(arr2);
